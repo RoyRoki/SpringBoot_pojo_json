@@ -1,0 +1,10 @@
+Hello this is Spring boot 
+
+server at : http://localhost:8080/
+End points:
+  ->   ""           == "hello world"
+  ->  "/{q}"        == "data = q"
+  ->   "/std"       == List<student>
+  ->   "/names"     == [name],[name],...(String)
+  ->   "/data"      == List<info> (json to pojo)
+  ->   "/json"      == String(pojo to json)
